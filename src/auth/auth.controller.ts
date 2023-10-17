@@ -8,9 +8,9 @@ import {
 } from '@nestjs/common';
 
 import { AuthService } from './auth.service';
-import { LocalAuthGuard } from './guards/local-auth.guard';
 import { LoginUserRequestDto } from 'src/users/dto/request/login-user-request.dto';
 import { GetUserResponseDto } from 'src/users/dto/response/get-user-response.dto';
+import { LocalAuthGuard } from './guards/local-auth.guard';
 
 @Controller('auth')
 export class AuthController {
