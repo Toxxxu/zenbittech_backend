@@ -6,6 +6,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
+import { FlatsModule } from './flats/flats.module';
 import ormConfig from './config/orm/orm.config';
 
 @Module({
@@ -19,6 +20,7 @@ import ormConfig from './config/orm/orm.config';
     }),
     UsersModule,
     AuthModule,
+    FlatsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
