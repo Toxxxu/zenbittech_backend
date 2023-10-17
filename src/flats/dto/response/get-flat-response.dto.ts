@@ -3,7 +3,7 @@ export interface GetFlatResponseDto {
   title: string;
   image_url: string;
   price: number;
-  yield: number;
+  yield: string;
   sold: number;
   ticket: number;
   days_left: number;

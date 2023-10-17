@@ -13,9 +13,9 @@ export class CreateFlatRequestDto {
   @IsNotEmpty()
   price: number;
 
-  @IsNumber()
+  @IsString()
   @IsNotEmpty()
-  yield: number;
+  yield: string;
 
   @IsNumber()
   @IsNotEmpty()

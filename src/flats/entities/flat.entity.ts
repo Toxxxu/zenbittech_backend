@@ -15,7 +15,7 @@ export class Flat {
   price: number;
 
   @Column()
-  yield: number;
+  yield: string;
 
   @Column()
   sold: number;
